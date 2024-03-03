@@ -161,6 +161,9 @@ The AMIs specified in the cloud formation template exist in the us-east-1 (N. Vi
 ### Task 4:  Identify Bad Practices
  
 Based on the architecture diagram, and the steps you have taken so far to upload data and access the application web service, identify at least 2 obvious poor practices as it relates to security. List these 2 practices, and a justification for your choices, in the text file named E1T4.txt.
+
+* Publicly accesible S3 Bucket
+* Publicly accessible directory tree within the app
  
 **Deliverables:** 
 - **E1T4.txt** - Text file identifying 2 poor security practices with justification. 
